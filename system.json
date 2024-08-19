@@ -1,0 +1,37 @@
+{
+  "id": "subversion",
+  "title": "Subversion",
+  "description": "Cyberpunk fantasy in Neo Babylon.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12
+  },
+  "authors": [
+    {
+      "name": "Fragging Unicorn Games",
+      "url": "https://www.fraggingunicorns.com/"
+    }
+  ],
+  "esmodules": ["subversion.mjs"],
+  "styles": ["styles/subversion.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {},
+  "socket": false,
+  "initiative": "1d20",
+  "grid": {
+    "distance": 10,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "resources.health",
+  "url": "https://your/hosted/system/repo/",
+  "manifest": "https://your/hosted/system/repo/system.json",
+  "download": "https://your/packaged/download/archive.zip"
+}
